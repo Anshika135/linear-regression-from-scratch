@@ -1,6 +1,6 @@
-Implemented Linear Regression without using sklearn to understand the mathematics behind machine learning.
+#Implemented Linear Regression without using sklearn to understand the mathematics behind machine learning.
 
-Features
+#Features
 
 ✅ Gradient Descent implementation
 ✅ Ordinary Least Squares (Normal Equation)
@@ -8,7 +8,7 @@ Features
 ✅ Cost tracking
 ✅ From-scratch ML fundamentals
 
-Algorithms Implemented
+#Algorithms Implemented
 1. Gradient Descent
 
 Iterative optimization
