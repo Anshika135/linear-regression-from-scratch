@@ -1,26 +1,41 @@
-#Implemented Linear Regression without using sklearn to understand the mathematics behind machine learning.
+# 🚀 Linear Regression From Scratch (NumPy Only)
 
-#Features
+A complete implementation of **Linear Regression built from scratch using only NumPy**, without using scikit-learn or any ML libraries.
 
-✅ Gradient Descent implementation
-✅ Ordinary Least Squares (Normal Equation)
-✅ Vectorized NumPy operations
-✅ Cost tracking
-✅ From-scratch ML fundamentals
+This project focuses on understanding the **mathematics and optimization behind machine learning algorithms**, including both **Gradient Descent** and **Ordinary Least Squares (Normal Equation)**.
 
-#Algorithms Implemented
-1. Gradient Descent
+---
 
-Iterative optimization
+## ✨ Features
 
-Works well for large datasets
+- ✅ Linear Regression using Gradient Descent
+- ✅ Linear Regression using OLS (Normal Equation)
+- ✅ Fully vectorized NumPy implementation
+- ✅ No sklearn or external ML libraries
+- ✅ Clean and modular code
+- ✅ sklearn-like API (`fit()`, `predict()`)
+- ✅ Beginner-friendly and interview-ready
 
-Learning rate based updates
+---
 
-2. OLS (Normal Equation)
+## 📚 Algorithms Implemented
 
-Closed-form solution
+### 🔹 Gradient Descent
+An iterative optimization algorithm that updates weights step-by-step to minimize Mean Squared Error.
 
-Fast for small datasets
+**Best for:**
+- Large datasets
+- Many features
+- When matrix inversion is expensive
 
-Uses pseudo-inverse for stability
+**Update rule:**
+w = w - α * dJ/dw
+
+
+---
+
+### 🔹 Ordinary Least Squares (OLS) – Normal Equation
+A closed-form mathematical solution using linear algebra.
+
+**Formula:**
+θ = (XᵀX)⁻¹Xᵀy
